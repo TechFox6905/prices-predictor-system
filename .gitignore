@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.vscode/
+*.code-workspace
+.DS_Store
+Thumbs.db
+.env
+
+
+data/
+explanations/
+extracted_data/
+mlruns/
