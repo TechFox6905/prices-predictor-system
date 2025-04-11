@@ -1,4 +1,5 @@
 from steps.data_ingestion_step import data_ingestion_step
+from steps.handle_missing_values_step import handle_missing_values_step
 from zenml import Model, pipeline, step
 
 
@@ -16,6 +17,8 @@ def ml_pipeline():
         file_path=r"D:\VsCode\Machine Learning\prices-predictor-system\data\archive.zip"
     )
 
+    # Handling Missing Values Step
+    filled_data = handle_missing_values_step(raw_data)
 
 if __name__ == "__main__":
     # Running the pipeline
