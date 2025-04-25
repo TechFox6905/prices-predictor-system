@@ -41,6 +41,7 @@ A machine learning project for predicting house prices using the Ames Housing da
 ├── mlruns/                # MLflow experiment logs
 ├── tests/                 # Unit tests
 └── README.md              # This file
+```
 
 ## 🚀 Getting Started
 
