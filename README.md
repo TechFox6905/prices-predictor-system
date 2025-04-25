@@ -48,7 +48,7 @@ A machine learning project for predicting house prices using the Ames Housing da
 1. Clone the repository
 
     ```bash
-    git clone <(https://github.com/TechFox6905/prices-predictor-system.git)>
+    git clone <https://github.com/TechFox6905/prices-predictor-system.git>
     cd prices-predictor-system
     ```
 
